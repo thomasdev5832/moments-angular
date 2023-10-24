@@ -61,3 +61,10 @@ input[type="submit"]:hover {
     cursor: pointer;
     transition: .4s;
 }
+
+.validation-error p {
+    color: red;
+    margin-top: .4em;
+    border-left: 2px solid red;
+    padding-left: .4em;
+}
