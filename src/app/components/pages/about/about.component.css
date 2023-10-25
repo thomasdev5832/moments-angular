@@ -1,0 +1,26 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+h2, p {
+    margin-bottom: 1em;
+}
+
+.about p {
+    font-size: 1.2em;
+}
+
+.about a {
+    background-color: yellow;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.about a:hover {
+    color: black;
+    box-shadow: 0 .2em .3em rgb(38, 38, 38);
+}
